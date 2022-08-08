@@ -64,7 +64,7 @@ img {
 }
 
 .card {
-    padding: 3rem;
+    padding: 3.4rem;
 }
 
 .card-heading,
@@ -81,7 +81,8 @@ img {
 }
 
 .card-body {
-    line-height: 1.7;
+    letter-spacing: 0.3px;
+    line-height: 1.8;
     font-family: var(--ff-base);
     font-size: var(--fs-base);
     font-weight: var(--fw-400);
@@ -151,6 +152,10 @@ img {
 }
 
 @media (min-width: 1200px) {
+    .btn {
+        margin-top: 2.5rem;
+    }
+
     .cards-container {
         width: 65%;
         display: flex;
@@ -163,7 +168,7 @@ img {
         -moz-border-radius: 8px 0 0 8px;
         -ms-border-radius: 8px 0 0 8px;
         -o-border-radius: 8px 0 0 8px;
-}
+    }
 
     .card:last-of-type {
         border-radius: 0 8px 8px 0;
